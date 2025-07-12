@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shikimori Custom Theme</title>
+    <title>Shikimori System Theme</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="light-theme"> <!-- Добавляем класс для темы -->
     <header class="header">
         <h1>Shikimori Theme</h1>
         <p>Кастомизируйте свой профиль на Shikimori!</p>
+        <button id="theme-toggle">🌙 Тёмная тема</button>
     </header>
 
     <main class="container">
         <section class="theme-preview">
             <h2>Пример темы</h2>
             <div class="preview-block" id="preview">
-                <!-- Здесь будет превью стиля -->
+                <!-- Превью стиля -->
             </div>
+            <button id="copy-css">📋 Скопировать CSS</button>
         </section>
 
         <section class="install">
@@ -31,7 +33,7 @@
     </main>
 
     <footer>
-        <p>© 2025 Akrfis. Сделано с ❤️ для Shikimori.</p>
+        <p>© 2025 Akrifis. Сделано с ❤️ для Shikimori.</p>
     </footer>
 
     <script src="js/script.js"></script>
